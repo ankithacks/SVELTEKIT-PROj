@@ -1,0 +1,11 @@
+npm create svelte@latest sveltekit-CRUD            -->this would be used to install the sveltekit on local env
+
+npm i                     -->this to install all the package.json file in the created svelte app
+
+npm run dev               -->to start the server
+
+npm install firebase      -->the is used when firebase is configured and ready for installation
+
+
+
+.env has all the important firebase related stuffs...while the firebase.js has the stuffs as:- import.meta.env. {and the imported file as written inside the env file} eg:-apiKey: import.meta.env.VITE_KEY where in .env file the VITE_KEY is :- VITE_KEY=AIzaSyD-s9liZxhxwaHXGf1ocb7WaMSb.....
